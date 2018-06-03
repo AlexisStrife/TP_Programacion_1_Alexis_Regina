@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1528067926 source:c:\users\alexis.o.regina\desktop\tp 3\tp_3_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+	"funciones.h"
+	"input.h"
+
+1528067541 c:\users\alexis.o.regina\desktop\tp 3\tp_3_cascara\funciones.h
+
+1528066964 source:c:\users\alexis.o.regina\desktop\tp 3\tp_3_cascara\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+
+1528068171 source:c:\users\alexis.o.regina\desktop\tp 3\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+	"funciones.h"
+	"input.h"
+
+1528066964 c:\users\alexis.o.regina\desktop\tp 3\tp_3_cascara\input.h
+
