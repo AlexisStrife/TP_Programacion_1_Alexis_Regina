@@ -54,24 +54,24 @@ int main(void)
 
 
     #ifdef TEST
-       // startTesting(1);  //al_newArrayList         listo
-       // startTesting(2);  //al_add                  listo
-     // startTesting(3);  //al_deleteArrayList        listo
-       //  startTesting(4);  //al_len                 listo
-       //startTesting(5);  //al_get                   listo
-     //   startTesting(6);   //al_contains            listo
-     // startTesting(7);   //al_set                   listo
+    //startTesting(1);  //al_newArrayList         listo
+    // startTesting(2);  //al_add                  listo
+    // startTesting(3);  //al_deleteArrayList        listo
+    //  startTesting(4);  //al_len                 listo
+    //startTesting(5);  //al_get                   listo
+    //   startTesting(6);   //al_contains            listo
+    // startTesting(7);   //al_set                   listo
     //  startTesting(8);   //al_remove                listo
     //  startTesting(9);   //al_clear                 listo
-      //startTesting(10);   //al_clone                listo
+    //startTesting(10);   //al_clone                listo
     //  startTesting(11);   //al_push                 listo
-      //startTesting(12);   //al_indexOf              listo
-     // startTesting(13);   //al_isEmpty              listo
-      //startTesting(14);   //al_pop                  listo
-      //startTesting(15);   //al_subList              listo
+    //startTesting(12);   //al_indexOf              listo
+    // startTesting(13);   //al_isEmpty              listo
+    //startTesting(14);   //al_pop                  listo
+    //startTesting(15);   //al_subList              listo
     //startTesting(16);   //al_containsAll            listo
-   // startTesting(17);   //al_sort                   listopppppp
-       /*   */run2();
+    // startTesting(17);   //al_sort                   listopppppp
+    /*   */run2();
     #else
         //run();
         run2();

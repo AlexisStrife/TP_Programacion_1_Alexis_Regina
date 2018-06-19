@@ -230,3 +230,218 @@
 	<stdlib.h>
 	<string.h>
 
+1529367030 source:c:\users\alumno\desktop\tp_4_cascara\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"inc/Employee.h"
+
+1463604778 c:\users\alumno\desktop\tp_4_cascara\inc\employee.h
+
+1529364628 source:c:\users\alumno\desktop\tp_4_cascara\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"inc/ArrayList.h"
+	"inc/Employee.h"
+
+1529366735 c:\users\alumno\desktop\tp_4_cascara\inc\arraylist.h
+
+1529365122 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\eighthtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\inc\utest.h
+
+1529364860 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\eleventhtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1529364862 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\fifteenthtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1529364865 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\fifthtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1529364868 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\firsttest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+
+1529364870 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\fourteenthtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1529364876 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\fourthtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1529364879 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\main_test.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	"../inc/firstTest.h"
+	"../inc/secondTest.h"
+	"../inc/thirdTest.h"
+	"../inc/fourthTest.h"
+	"../inc/fifthTest.h"
+	"../inc/sixthTest.h"
+	"../inc/seventhTest.h"
+	"../inc/eighthTest.h"
+	"../inc/ninthTest.h"
+	"../inc/tenthTest.h"
+	"../inc/eleventhTest.h"
+	"../inc/twelfthTest.h"
+	"../inc/thirteenthTest.h"
+	"../inc/fourteenthTest.h"
+	"../inc/fifteenthTest.h"
+	"../inc/sixteenthTest.h"
+	"../inc/seventeenthTest.h"
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\firsttest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\secondtest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\thirdtest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\fourthtest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\fifthtest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\sixthtest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\seventhtest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\eighthtest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\ninthtest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\tenthtest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\eleventhtest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\twelfthtest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\thirteenthtest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\fourteenthtest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\fifteenthtest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\sixteenthtest.h
+
+1463521274 c:\users\alumno\desktop\tp_4_cascara\testing\inc\seventeenthtest.h
+
+1529364885 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\ninthtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1529364888 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\secondtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1529364891 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\seventeenthtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1529364894 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\seventhtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1529364896 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\sixteenthtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1529364899 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\sixthtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1529364902 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\tenthtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1529364904 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\thirdtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1529364908 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\thirteenthtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1529364911 source:c:\users\alumno\desktop\tp_4_cascara\testing\src\twelfthtest.c
+	"../../inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/ArrayList.h"
+	"../../inc/Employee.h"
+
+1529365461 source:c:\users\alumno\desktop\tp_4_cascara\utest.c
+	"inc/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
