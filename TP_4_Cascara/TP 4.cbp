@@ -39,12 +39,8 @@
 		</Unit>
 		<Unit filename="inc/ArrayList.h" />
 		<Unit filename="inc/Employee.h" />
-		<Unit filename="inc/parser.h" />
 		<Unit filename="inc/utest.h" />
 		<Unit filename="main.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="parser.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="testing/inc/eighthTest.h" />

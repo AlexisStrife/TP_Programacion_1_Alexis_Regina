@@ -59,10 +59,9 @@ ArrayList* al_newArrayList(void)
     return returnAux;
 }
 
-
 /** \brief  Add an element to arrayList and if is
  *          nessesary resize the array
- * \param this ArrayList* Pointer to arrayList
+ * \param this ArrayList* Pointer to arrayListok
  * \param pElement void* Pointer to element
  * \return int Return (-1) if Error [this or pElement are NULL pointer] - (0) if Ok
  *
@@ -79,7 +78,6 @@ int al_add(ArrayList* this,void* pElement)
         if(this->size == this->reservedSize)
         {
             aux = realloc(this->pElements, sizeof(void*)*(this->reservedSize + AL_INCREMENT));
-
             if(aux!=NULL)
             {
                 this->pElements = aux;
@@ -90,7 +88,6 @@ int al_add(ArrayList* this,void* pElement)
                 flag = 1;
             }
         }
-
          if(flag==0)
         {
             tam = this->size;
@@ -100,7 +97,6 @@ int al_add(ArrayList* this,void* pElement)
             returnAux = 0;
         }
     }
-
     return returnAux;
 }
 
@@ -123,7 +119,7 @@ int al_deleteArrayList(ArrayList* this)
     return returnAux;
 }
 
-/** \brief  Delete arrayList
+/** \brief Returns size of the arrayList
  * \param this ArrayList* Pointer to arrayList
  * \return int Return length of array or (-1) if Error [this is NULL pointer]
  *
@@ -139,7 +135,6 @@ int al_len(ArrayList* this)
 
     return returnAux;
 }
-
 
 /** \brief  Get an element by index
  * \param this ArrayList* Pointer to arrayList
@@ -159,7 +154,6 @@ void* al_get(ArrayList* this , int index)
     return returnAux;
 }
 
-
 /** \brief  Find if this contains at least one element pElement
  * \param this ArrayList* Pointer to arrayList
  * \param pElement void* Pointer to element
@@ -172,7 +166,6 @@ int al_contains(ArrayList* this, void* pElement)
 {
     int returnAux = -1;
     int i;
-
     if(this!=NULL && pElement!=NULL)
     {
         for(i=0; i<this->size; i++)
@@ -186,10 +179,8 @@ int al_contains(ArrayList* this, void* pElement)
             }
         }
     }
-
     return returnAux;
 }
-
 
 /** \brief  Set a element in this at index position
  * \param this ArrayList* Pointer to arrayList
@@ -225,7 +216,6 @@ int al_set(ArrayList* this, int index,void* pElement)
     return returnAux;
 }
 
-
 /** \brief  Remove an element by index
  * \param this ArrayList* Pointer to arrayList
  * \param index int Index of the element
@@ -250,7 +240,6 @@ int al_remove(ArrayList* this,int index)
     return returnAux;
 }
 
-
 /** \brief Removes all of the elements from this list
  * \param this ArrayList* Pointer to arrayList
  * \return int Return (-1) if Error [this is NULL pointer]
@@ -269,7 +258,6 @@ int al_clear(ArrayList* this)
 
     return returnAux;
 }
-
 
 /** \brief Returns an array containing all of the elements in this list in proper sequence
  *  \param this ArrayList* Pointer to arrayList
@@ -292,14 +280,9 @@ ArrayList* al_clone(ArrayList* this)
         {
             returnAux->pElements[i] = this->pElements[i];
         }
-
     }
-
     return returnAux;
 }
-
-
-
 
 /** \brief Inserts the element at the specified position
  * \param this ArrayList* Pointer to arrayList
@@ -319,23 +302,16 @@ int al_push(ArrayList* this, int index, void* pElement)
         {
             this->reservedSize += AL_INCREMENT;
         }
-
         for(i=index+1; i<this->size; i++)
         {
             this->pElements[i] = this->pElements[i+1];
         }
-
         this->pElements[index] = pElement;
         this->size++;
-
         returnAux = 0;
-
     }
-
     return returnAux;
 }
-
-
 
 /** \brief Returns the index of the first occurrence of the specified element
  * \param this ArrayList* Pointer to arrayList
@@ -359,11 +335,8 @@ int al_indexOf(ArrayList* this, void* pElement)
             contador++;
         }
     }
-
     return returnAux;
 }
-
-
 
 /** \brief Returns true if this list contains no elements.
  * \param this ArrayList* Pointer to arrayList
@@ -384,12 +357,8 @@ int al_isEmpty(ArrayList* this)
             returnAux = 0;
         }
     }
-
     return returnAux;
 }
-
-
-
 
 /** \brief Remove the item at the given position in the list, and return it.
  * \param this ArrayList* Pointer to arrayList
@@ -417,7 +386,6 @@ void* al_pop(ArrayList* this,int index)
     return returnAux;
 }
 
-
 /** \brief Returns a new arrayList with a portion of this between the specified
  *         fromIndex, inclusive, and toIndex, exclusive.
  * \param this ArrayList* Pointer to arrayList
@@ -428,7 +396,6 @@ void* al_pop(ArrayList* this,int index)
  */
 ArrayList* al_subList(ArrayList* this,int from,int to)
 {
-   // void* returnAux = NULL;
     ArrayList* arrayAux = NULL;
     int i, flagAdd;
 
@@ -454,19 +421,10 @@ ArrayList* al_subList(ArrayList* this,int from,int to)
             {
                 arrayAux = NULL;
             }
-
-
         }
-
-        //returnAux = arrayAux;
     }
-
     return arrayAux ;
 }
-
-
-
-
 
 /** \brief Returns true if this list contains all of the elements of this2
  * \param this ArrayList* Pointer to arrayList
@@ -494,7 +452,6 @@ int al_containsAll(ArrayList* this,ArrayList* this2)
             }
         }
     }
-
     return returnAux;
 }
 
@@ -526,9 +483,7 @@ int al_sort(ArrayList* this, int (*pFunc)(void* ,void*), int order)
                        this->pElements[i] = this->pElements[j];
                        this->pElements[j] = auxElements;
                    }
-
                 }
-
                 if(order == 0)
                 {
                     retornoFunc = pFunc(this->pElements[i], this->pElements[j]);
@@ -538,18 +493,13 @@ int al_sort(ArrayList* this, int (*pFunc)(void* ,void*), int order)
                         this->pElements[i] = this->pElements[j];
                         this->pElements[j] = auxElements;
                     }
-
                 }
-
             }
         }
          returnAux = 0;
-
     }
-
     return returnAux;
 }
-
 
 /** \brief Increment the number of elements in this in AL_INCREMENT elements.
  * \param this ArrayList* Pointer to arrayList
@@ -564,15 +514,12 @@ int resizeUp(ArrayList* this)
     if(this!=NULL)
     {
         aux = realloc(this->pElements, sizeof(void*)*(this->reservedSize + AL_INCREMENT));
-
         if(aux!=NULL)
         {
             returnAux = 0;
         }
     }
-
     return returnAux;
-
 }
 
 /** \brief  Expand an array list
@@ -592,17 +539,13 @@ int expand(ArrayList* this,int index)
         {
             this->reservedSize += AL_INCREMENT;
         }
-
         for(i=index+1; i<this->size; i++)
         {
             this->pElements[i] = this->pElements[i+1];
         }
-
         this->size++;
-
         returnAux = 0;
     }
-
     return returnAux;
 }
 
@@ -625,21 +568,8 @@ int contract(ArrayList* this,int index)
         }
 
         this->size--;
-
         returnAux = 0;
     }
-
     return returnAux;
 }
-
-
-
-
-
-
-
-
-
-
-
 

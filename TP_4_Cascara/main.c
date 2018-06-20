@@ -48,7 +48,7 @@ int main(void)
     for(i=1; i<18; i++)
     {
         printf("%d\n", i);
-        startTesting(i);
+        //startTesting(i);
 
     }
 
@@ -80,9 +80,6 @@ int main(void)
     return 0;
 }
 
-
-
-
 int run2(void)
 {
     // Genero personas para usar en el ArrayList
@@ -97,7 +94,6 @@ int run2(void)
     printEmployee(p3);
     //__________________________________________
 
-
     printf("\r\nCargo ArraList...\r\n");
     ArrayList* lista = al_newArrayList();
     lista->add(lista,p0);
@@ -110,7 +106,7 @@ int run2(void)
     lista->remove(lista,2);
     printArrayListEmployee(lista);
 
-    printf("\r\nContiene p0 ?\r\n");
+    printf("\r\nContiene p0 ?\r\sortn");
     if(lista->contains(lista,p0))
         printf("SI");
     else
@@ -163,17 +159,14 @@ int run2(void)
     lista->push(lista,1,p1);
     printArrayListEmployee(lista);
 
-
     printf("\r\nObtenemos sub-lista de 1 a 2\r\n");
     ArrayList* subLista = lista->subList(lista,1,2);
     printArrayListEmployee(subLista);
-
 
     printf("\r\n\r\nHacemos pop de p1 en la posicion 1\r\n");
     Employee* p1Aux = lista->pop(lista,1);
     printf("Elemento pop(): %s\r\n",p1Aux->name);
     printArrayListEmployee(lista);
-
 
     printf("\r\nClear array\r\n");
     lista->clear(lista);
